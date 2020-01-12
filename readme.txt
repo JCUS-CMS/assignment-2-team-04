@@ -1,38 +1,15 @@
-=== advoc_starter ===
+# assignment-2-team-04
+assignment-2-team-04 created by GitHub Classroom
 
-Contributors: automattic
-Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+<h1> CP3402 Content Management Systems Assignment 2 </h1>
+This is the repository of the Doctors Connect website for our CP3402 Content Management Systems Assignment 2 in Group 4. The website is created via WordPress and is hosted live on Amazon WorkSpaces - Amazon Web Services.<br>
 
-Requires at least: 4.5
-Tested up to: 4.8
-Stable tag: 1.0.0
-License: GNU General Public License v2 or later
-License URI: LICENSE
+- Slack: https://app.slack.com/client/TRDJ2658B/CRQJDQ9JQ
+- Trello: https://trello.com/b/UaqVQQLr/cp3402-cms-assignment
+<br>
 
-A starter theme called advoc_starter.
+<h2>Development</h2>
+TBA
 
-== Description ==
-
-Description
-
-== Installation ==
-
-1. In your admin panel, go to Appearance > Themes and click the Add New button.
-2. Click Upload Theme and Choose File, then select the theme's .zip file. Click Install Now.
-3. Click Activate to use your new theme right away.
-
-== Frequently Asked Questions ==
-
-= Does this theme support any plugins? =
-
-advoc_starter includes support for Infinite Scroll in Jetpack.
-
-== Changelog ==
-
-= 1.0 - May 12 2015 =
-* Initial release
-
-== Credits ==
-
-* Based on Underscores https://underscores.me/, (C) 2012-2017 Automattic, Inc., [GPLv2 or later](https://www.gnu.org/licenses/gpl-2.0.html)
-* normalize.css https://necolas.github.io/normalize.css/, (C) 2012-2016 Nicolas Gallagher and Jonathan Neal, [MIT](https://opensource.org/licenses/MIT)
+<h2>Deployment</h2>
+TBA

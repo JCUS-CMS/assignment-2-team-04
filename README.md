@@ -1,7 +1,3 @@
-# CMS-group4-Assignment
-CMS assignment-2-team-04 for backup
-<br>
-<br>
 # assignment-2-team-04
 assignment-2-team-04 created by GitHub Classroom
 

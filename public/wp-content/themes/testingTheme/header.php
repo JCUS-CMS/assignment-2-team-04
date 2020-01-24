@@ -6,35 +6,28 @@
 
 
 
-<body <?php body_class();?>>
+<body>
 
 
 
 
 
+<header>
 
-
-
-
-<header class="sticky-top">
-
-
-			<div class="container">
-			<?php wp_nav_menu (
-
+	<div class="container">
+		<?php
+		wp_nav_menu(
 
 				array(
 
-					'theme_location' => 'top-menu', 
-					'menu_class' => 'navigation'
-
+					'theme_location' => 'top-menu',
+					'menu_class' => 'top-bar'
 				)
 
+		);
+		?>
+	</div>
 
-
-
-			);?>
-			</div>
 
 
 </header>

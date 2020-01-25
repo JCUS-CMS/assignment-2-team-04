@@ -1,27 +1,23 @@
 <?php get_header();?>
 
 
+<section class="page-wrap">
+<div class="container">
 
-<div class="container pt-5 pb-5">
+			<?php if(has_post_thumbnail()):?>
 
-	<h1><?php the_title();?></h1>
+				<img src="<?php the_post_thumbnail_url('largest');?>" alt="<?php the_title();?>" class="img-fluid mb-3 img-thumbnail">
 
-	<?php if(has_post_thumbnail()):?>
-
-		<img src="<?php the_post_thumbnail_url('largest');?>" class="img-fluid">
-
-	<?php endif;?>
+			<?php endif;?>
 
 
-	<?php if (have_posts()) : while(have_posts()) : the_post();?>
 
-			<?php the_content();?>
+		<h1><?php the_title();?></h1>
 
-	<?php endwhile; endif;?>
-
-
+		<?php get_template_part('includes/section','blogcontent');?>
 
 </div>
+</section>
 
 
 

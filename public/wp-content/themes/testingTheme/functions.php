@@ -44,7 +44,7 @@ function loadjs()
 add_action('wp_enqueue_scripts', 'loadjs');
 
 
-
+add_theme_support('menus');
 
 add_theme_support('post-thumbnails');
 
@@ -53,20 +53,13 @@ add_theme_support('custom-logo');
 
 
 
-// theme options
-add_theme_support('menus');
-
+// menus
 register_nav_menus(
 
 	array(
 		'top-menu' => __('Top Menu', 'theme'),
 		'footer-menu' => __('Footer Menu', 'theme'),  
-
-
-
 	)
-
-
 
 );
 
@@ -75,7 +68,7 @@ register_nav_menus(
 
 
 
+//Image Sizes
 
-
-add_image_size('smallest', 100, 100, true);
-add_image_size('largest', 300, 300, true);
+add_image_size('smallest', 300, 200, true);
+add_image_size('largest', 800, 400, true);

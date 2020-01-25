@@ -50,6 +50,8 @@ add_theme_support('post-thumbnails');
 
 add_theme_support('custom-logo');
 
+add_theme_support('widgets');
+
 
 
 
@@ -69,6 +71,40 @@ register_nav_menus(
 
 
 //Image Sizes
-
 add_image_size('smallest', 300, 200, true);
 add_image_size('largest', 800, 400, true);
+
+
+
+
+//Sidebars
+function my_sidebars()
+{
+			register_sidebar(
+
+						array(
+
+								'name' => 'Page Sidebar',
+								'id' => 'page-sidebar',
+								'before_title' => '<h4 class="widget-title">',
+								'after_title' => '</h4>'
+
+						)
+
+			);
+
+
+			register_sidebar(
+
+						array(
+
+								'name' => 'Blog Sidebar',
+								'id' => 'blog-sidebar',
+								'before_title' => '<h4 class="widget-title">',
+								'after_title' => '</h4>'
+
+						)
+
+			);
+}
+add_action('widgets_init','my_sidebars');

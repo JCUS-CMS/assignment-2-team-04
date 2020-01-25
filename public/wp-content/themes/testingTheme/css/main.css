@@ -138,15 +138,16 @@ footer .footer-bar  li .sub-menu{
 }
 
 footer .footer-bar  li .sub-menu a{
-	color: #8b0000;
+	color: white;
 	padding: .25rem;
 	text-align: center;
 	display: block;
 	text-decoration: none;
+	font-weight: 500;
 }
 
 footer .footer-bar  li .sub-menu a:hover{
-	color: black;
+	color: blue;
 }
 
 footer .footer-bar .menu-item-has-children:hover .sub-menu{
